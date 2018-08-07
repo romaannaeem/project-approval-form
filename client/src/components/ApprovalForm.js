@@ -18,7 +18,16 @@ const renderField = ({
       type={type}
     />
     {touched &&
-      ((error && <span>{error}</span>) || (warning && <span>{warning}</span>))}
+      ((error && (
+        <span className="error">
+          <b>{error}</b>
+        </span>
+      )) ||
+        (warning && (
+          <span className="error">
+            <b>{warning}</b>
+          </span>
+        )))}
   </div>
 );
 
@@ -28,7 +37,8 @@ const SimpleForm = props => {
     <form onSubmit={handleSubmit}>
       <div>
         <label>
-          Contact<span className="requiredStar">*</span>
+          <b>Contact</b>
+          <span className="requiredStar">*</span>
         </label>
         <Field
           className="col-lg-6 col-md-6 col-sm-12"
@@ -51,7 +61,8 @@ const SimpleForm = props => {
       <br />
       <div>
         <label>
-          Company/Client<span className="requiredStar">*</span>
+          <b>Company/Client</b>
+          <span className="requiredStar">*</span>
         </label>
         <div>
           <Field
@@ -66,7 +77,8 @@ const SimpleForm = props => {
       <br />
       <div>
         <label>
-          Email<span className="requiredStar">*</span>
+          <b>Email</b>
+          <span className="requiredStar">*</span>
         </label>
         <div>
           <Field
@@ -81,7 +93,8 @@ const SimpleForm = props => {
       <br />
       <div>
         <label>
-          Web Site or Domain<span className="requiredStar">*</span>
+          <b>Web Site or Domain</b>
+          <span className="requiredStar">*</span>
         </label>
         <div>
           <Field
@@ -96,7 +109,8 @@ const SimpleForm = props => {
       <br />
       <div>
         <label>
-          Approved By<span className="requiredStar">*</span>
+          <b>Approved By</b>
+          <span className="requiredStar">*</span>
         </label>
         <div>
           <Field
@@ -110,7 +124,11 @@ const SimpleForm = props => {
       </div>
       <br />
       <div>
-        <button type="submit" disabled={pristine || submitting}>
+        <button
+          className="btn-flat"
+          type="submit"
+          disabled={pristine || submitting}
+        >
           Submit
         </button>
       </div>

@@ -3,11 +3,37 @@ ol {
     padding-left: 15px;
 }
 
+form {
+    margin-bottom: 30px;
+}
+
 input {
     background-color: #eee;
     border: none ! important;
     box-shadow: none ! important;
     outline: none ! important;
+    border-radius: 5px;
+}
+
+.btn-flat {
+    transition: background-color 0.5s ease;
+    font-size: 1.15rem;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 3px 15px 3px 15px;
+    background-color: #4CAF50;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.btn-flat:hover {
+    background-color: #3c8c40;
+}
+
+.error {
+    color: red;
+    font-size: 0.85rem;
 }
 
 .small-br {

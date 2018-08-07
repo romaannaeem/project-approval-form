@@ -32,14 +32,17 @@ const Description = props => {
           <b>Approval:</b> The website is approved and meets all requirements.
           SparkLanding has delivered a fully functioning, finished product.
         </li>
+        <div className="small-br" />
         <li>
           <b>Testing:</b> I have been given sufficient time to test the website.
         </li>
+        <div className="small-br" />
         <li>
           <b>Billable hours:</b> I understand that all future changes or
           corrections in design or content are now billable at SparkLanding’s
           standard rates.
         </li>
+        <div className="small-br" />
         <li>
           <b>Browser compatibility:</b> SparkLanding has developed my website
           for compatibility with the most recent versions of Internet Explorer,
@@ -48,6 +51,7 @@ const Description = props => {
           provide bug-free functionality due to the unpredictable nature of
           browser design.
         </li>
+        <div className="small-br" />
         <li>
           <b>Future Issues:</b> Over time, certain aspects of websites may have
           issues. Browser compatibility may diminish, unknown customer input,
@@ -56,6 +60,7 @@ const Description = props => {
           types of issues, but can help to control and prevent them with
           standard maintenance of the website.
         </li>
+        <div className="small-br" />
         <li>
           <b>Maintenance:</b> SparkLanding offers maintenance plans and that if
           I choose to decline a maintenance agreement, all future security
@@ -63,6 +68,7 @@ const Description = props => {
           SparkLanding will be under our standard hourly rate. A quote will be
           provided.
         </li>
+        <div className="small-br" />
         <li>
           <b>Payment:</b> I understand that full payment must be made upon
           signing this form.
