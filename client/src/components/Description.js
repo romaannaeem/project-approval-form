@@ -3,9 +3,9 @@ import React from 'react';
 const Description = props => {
   return (
     <span>
-      <nav class="navbar navbar-inverse">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-inverse">
+        <div className="navbar-header">
+          <a className="navbar-brand" href="#">
             SparkLanding Approval Form
           </a>
         </div>

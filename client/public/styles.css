@@ -10,6 +10,14 @@ input {
     outline: none ! important;
 }
 
+.small-br {
+    margin-top:5px!important;
+}
+
+.requiredStar {
+    color: red;
+}
+
 .row {
     padding-left: 15px;
     padding-right: 15px;
