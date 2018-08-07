@@ -16,7 +16,7 @@ const SimpleForm = props => {
             placeholder="First Name"
           />
           <Field
-            className="col-lg-5 col-md-5 col-sm-12"
+            className="col-lg-5 col-md-5 col-sm-12 offset-lg-1 offset-md-1"
             name="lastName"
             component="input"
             type="text"

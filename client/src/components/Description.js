@@ -2,8 +2,15 @@ import React from 'react';
 
 const Description = props => {
   return (
-    <div>
-      <div>
+    <span>
+      <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            SparkLanding Approval Form
+          </a>
+        </div>
+      </nav>
+      <div className="begin">
         By clicking “I approve” and submitting this form you have reviewed your
         demo url and approve it to go live as is.
       </div>
@@ -61,7 +68,7 @@ const Description = props => {
           signing this form.
         </li>
       </ol>
-    </div>
+    </span>
   );
 };
 

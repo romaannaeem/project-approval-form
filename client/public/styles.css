@@ -3,7 +3,22 @@ ol {
     padding-left: 15px;
 }
 
+input {
+    background-color: #eee;
+    border: none ! important;
+    box-shadow: none ! important;
+    outline: none ! important;
+}
+
 .row {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.navbar {
+    padding: 0px 0px;
+}
+
+.begin {
+    padding-top: 60px;
 }
